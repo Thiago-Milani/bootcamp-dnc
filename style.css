@@ -275,12 +275,16 @@
         margin: 0%;
     }
 
+    header h2{
+        font-size: 25px;
+    }
+
     section h1{
         font-size: 38px;
     }
 
     section h2{
-        font-size: 28x;
+        font-size: 30x;
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -294,5 +298,31 @@
         font-size: 16px;
     }
 
-    
+    footer{
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer .linha1{
+        flex-direction: column;
+    }
+
+    footer .linha2{
+        background-color: var(--azul-dnc);
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    #cadastrar{
+        width: 100%;
+    }
+
+    footer .endereço{
+        width: 95%;
+      
+    }
+
+    #escolas{
+        margin-bottom: 30px;
+    }
 }
